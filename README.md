@@ -6,5 +6,5 @@
 6. git push -u origin master
 7. git branch
 8. git log
-9. git checkout -b *new_background_name*
+9. git checkout -b *new_branch_name*
 10. git checkout *branch_name*
