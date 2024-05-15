@@ -1,0 +1,24 @@
+<html>
+<head>
+       <title>Push Pop Array</title>
+       <script type= 'text/javascript'>
+	let a= new Array();
+	a.push(10);
+	a.push(50);
+	a.push(80);
+	a.push(60);
+	//a.pop();			//removes the last inserted element
+	for(var i=0; i<a.length; i++){
+		document.write(a[i]+"</br>");
+	}
+	//a.shift();			//removes 1st element and shift index at lower side
+	//document.write(a);
+	//a.unshift(100);			//insert value at 0th index and shift the elements to next indices 
+	delete a[2];			//delete element by using index
+	document.write(a);
+       </script>
+</head>
+<body>
+
+</body>
+</html>

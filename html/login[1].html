@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Application</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 60%;
+            min-height: 500px;
+            border: 2px solid black;
+            margin: auto;
+        }
+        .heading{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 24px;
+            text-shadow: 2px 4px 2px grey;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .form{
+            width: 500px;
+            min-height: 300px;
+            border: 1px solid black;
+        }
+        .formdata{
+            width: 100%;
+        }
+        label{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="heading">
+            <h2>Login</h2>
+        </div>
+        <div class="form">
+        <div class="formdata">
+            <label for="username">Enter username</label>
+            <input type="text" id="username" name="username" autocomplete="off">
+
+            <label for="password">Enter password</label>
+            <input type="password" id="password" name="password" autocomplete="off">
+            
+            <input type="submit" id="Login" name="Login">
+        </div>
+        </div>
+    </div>
+</body>
+</html>

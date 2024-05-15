@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.header{
+    width: 75%;
+    min-height: 100px;
+    margin: auto;
+    border: 1px solid black;
+    background-image: url(../imgs/nabi1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    font-size: 1em;
+    color: aliceblue;
+}
+ol{
+    color:darkorange;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    gap: 20px;
+    list-style: none;
+}
+ol li a{
+    color: #fff;
+    text-decoration: none;
+}
